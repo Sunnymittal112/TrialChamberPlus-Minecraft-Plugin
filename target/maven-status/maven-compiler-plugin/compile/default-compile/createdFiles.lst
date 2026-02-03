@@ -1,0 +1,8 @@
+com\fetal\trialchamberplus\managers\LeaderboardManager.class
+com\fetal\trialchamberplus\managers\DifficultyManager.class
+com\fetal\trialchamberplus\listeners\TrialChamberListener.class
+com\fetal\trialchamberplus\managers\RewardManager$CustomDrop.class
+com\fetal\trialchamberplus\managers\RewardManager.class
+com\fetal\trialchamberplus\TrialChamberPlus.class
+com\fetal\trialchamberplus\utils\MessageUtils.class
+com\fetal\trialchamberplus\commands\TrialCommand.class

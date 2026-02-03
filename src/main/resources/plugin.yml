@@ -1,0 +1,30 @@
+name: TrialChamberPlus
+version: ${project.version}
+main: com.fetal.trialchamberplus.TrialChamberPlus
+api-version: '1.21'
+author: FeTaL
+description: Enhance Trial Chambers with custom rewards, difficulty levels, and leaderboards!
+website: https://modrinth.com/plugin/trialchamberplus
+
+commands:
+  trial:
+    description: Main command for TrialChamberPlus
+    usage: /<command> <help|stats|leaderboard|reload>
+    aliases: [tc, trialchamber]
+
+permissions:
+  trialchamberplus.use:
+    description: Basic plugin usage
+    default: true
+  trialchamberplus.stats:
+    description: View your trial stats
+    default: true
+  trialchamberplus.leaderboard:
+    description: View leaderboard
+    default: true
+  trialchamberplus.admin:
+    description: Admin commands
+    default: op
+  trialchamberplus.rewards.bonus:
+    description: Get bonus rewards
+    default: op

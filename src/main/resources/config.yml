@@ -1,0 +1,92 @@
+#=========================================
+#   TrialChamberPlus Configuration
+#   Author: FeTaL
+#=========================================
+
+# General Settings
+settings:
+  # Plugin prefix in messages
+  prefix: "&6&l[TrialChamber+] &r"
+  
+  # Enable/Disable features
+  enable-custom-rewards: true
+  enable-leaderboard: true
+  enable-difficulty-scaling: true
+  enable-announcements: true
+
+# Difficulty Settings
+difficulty:
+  # Mob health multiplier based on player count
+  scale-with-players: true
+  health-multiplier-per-player: 0.25
+  
+  # Max difficulty multiplier
+  max-multiplier: 3.0
+  
+  # Breeze custom settings
+  breeze:
+    extra-health: 10.0
+    damage-multiplier: 1.5
+
+# Reward Settings
+rewards:
+  # Bonus XP on Trial Spawner break
+  bonus-xp: 50
+  
+  # Custom loot table additions
+  custom-drops:
+    enabled: true
+    items:
+      - material: DIAMOND
+        chance: 0.1
+        min-amount: 1
+        max-amount: 3
+      - material: EMERALD
+        chance: 0.15
+        min-amount: 2
+        max-amount: 5
+      - material: GOLDEN_APPLE
+        chance: 0.08
+        min-amount: 1
+        max-amount: 2
+      - material: WIND_CHARGE
+        chance: 0.2
+        min-amount: 3
+        max-amount: 8
+      - material: OMINOUS_BOTTLE
+        chance: 0.05
+        min-amount: 1
+        max-amount: 1
+      - material: MACE
+        chance: 0.02
+        min-amount: 1
+        max-amount: 1
+
+# Leaderboard Settings
+leaderboard:
+  # How many entries to show
+  max-entries: 10
+  
+  # Points system
+  points:
+    mob-kill: 10
+    breeze-kill: 25
+    chamber-complete: 100
+    vault-open: 50
+
+# Announcements
+announcements:
+  # Announce when player enters trial chamber
+  on-enter: true
+  enter-message: "&e%player% &7has entered a &6Trial Chamber&7!"
+  
+  # Announce chamber completion
+  on-complete: true
+  complete-message: "&a%player% &7has conquered a &6Trial Chamber&7! &8(&e+%points% points&8)"
+
+# Messages
+messages:
+  no-permission: "&cYou don't have permission to do this!"
+  reload-success: "&aConfiguration reloaded successfully!"
+  stats-header: "&6&l=== Your Trial Stats ==="
+  leaderboard-header: "&6&l=== Trial Chamber Leaderboard ==="
