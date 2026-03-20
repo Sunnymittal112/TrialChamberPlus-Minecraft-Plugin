@@ -27,7 +27,7 @@ Whether you're running a survival server, SMP, or competitive network - this plu
 - Special rewards from Vault blocks
 - Permission-based bonus multipliers
 
-### ⚔️ Dynamic Difficulty Scaling
+###  Dynamic Difficulty Scaling
 - Mobs get stronger with more players nearby
 - Configurable health and damage multipliers
 - Special Breeze enhancements
