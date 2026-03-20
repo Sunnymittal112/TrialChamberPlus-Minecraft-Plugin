@@ -1,6 +1,6 @@
 <center>
 
-# ⚔️ TrialChamberPlus ⚔️
+#  TrialChamberPlus 
 
 ### *Transform Your Trial Chamber Experience!*
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 🎯 What is TrialChamberPlus?
+##  What is TrialChamberPlus?
 
 **TrialChamberPlus** takes Minecraft 1.21's Trial Chambers to the next level! Add custom rewards, competitive leaderboards, dynamic difficulty scaling, and detailed player statistics to make Trial Chambers the ultimate challenge on your server.
 
@@ -18,9 +18,9 @@ Whether you're running a survival server, SMP, or competitive network - this plu
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🎁 Custom Rewards System
+###  Custom Rewards System
 - Extra loot drops when defeating Trial Chamber mobs
 - Configurable drop chances and amounts
 - Bonus XP from Trial Spawners
@@ -34,7 +34,7 @@ Whether you're running a survival server, SMP, or competitive network - this plu
 - Visual indicators for scaled mobs (glowing effect)
 - Maximum difficulty cap to prevent impossibility
 
-### 🏆 Leaderboard System
+###  Leaderboard System
 - Track player points and rankings
 - Compete with other players
 - Multiple point sources:
@@ -43,7 +43,7 @@ Whether you're running a survival server, SMP, or competitive network - this plu
   - Vault opens
   - Chamber completions
 
-### 📊 Detailed Statistics
+###  Detailed Statistics
 - Personal stats tracking
 - Mob kill counters
 - Breeze kill counters
@@ -51,7 +51,7 @@ Whether you're running a survival server, SMP, or competitive network - this plu
 - Chambers completed
 - Global ranking position
 
-### 📢 Server Announcements
+###  Server Announcements
 - Broadcast when players enter Trial Chambers
 - Announce chamber completions
 - Fully customizable messages
@@ -59,7 +59,7 @@ Whether you're running a survival server, SMP, or competitive network - this plu
 
 ---
 
-## 📋 Commands
+##  Commands
 
 | Command | Description | Permission |
 |---------|-------------|------------|
@@ -73,7 +73,7 @@ Whether you're running a survival server, SMP, or competitive network - this plu
 
 ---
 
-## 🔐 Permissions
+##  Permissions
 
 | Permission | Description | Default |
 |------------|-------------|---------|
@@ -85,7 +85,7 @@ Whether you're running a survival server, SMP, or competitive network - this plu
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 TrialChamberPlus is **highly configurable**! Customize everything:
 
